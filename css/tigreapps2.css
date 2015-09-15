@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin-top: 70px;
+}
+
+body nav {
+  height: 70px;
+}
+
+body nav .container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1024;
+}
+
+body nav .container figure {
+  float: left;
+  margin: 0 auto;
+}
+
+body nav .container figure img {
+  height: 100%;
+  padding-top: 10px;
+}
+
+body nav .collapse ul {
+  float: right;
+  margin: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+body nav .collapse ul li {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  font-size: 1.3em;
+}
+
+body section {
+  width: 100%;
+  height: 660px;
+}
+
+body section .inicio {
+  height: 330px;
+  background-color: #fff;
+}
+
+body section .inicio .centrado {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body section .inicio .centrado figure {
+  max-width: 100%;
+}
+
+body section .inicio .centrado figure img {
+  width: 100%;
+}
+
+body section .tigre {
+  height: 400px;
+  background-color: #fff;
+}
+
+body section .tigre .centrado {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body section .tigre .centrado .texto {
+  height: 267px;
+  display: inline-block;
+  padding-top: 40px;
+  max-width: 50%;
+  text-align: justify;
+  margin-left: 25%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+body section .tigre .centrado .texto h3 {
+  margin-left: 40%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin-top: 0px;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+body section .tigre .centrado .texto p {
+  font-size: 1em;
+  -moz-column-count: 2;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 10px;
+  column-count: 2;
+  column-gap: 10px;
+}
+
+body section .tigre .centrado figure {
+  height: 134px;
+}
+
+body section .tigre .centrado figure img {
+  width: 100%;
+}
+
+body section .contacto {
+  height: 400px;
+  background-color: #fff;
+}
+
+body section .contacto .centrado {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body section .contacto .centrado h3 {
+  margin-left: 43%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin-top: 0px;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+body section .contacto .centrado form {
+  float: left;
+  display: inline-block;
+  width: 40%;
+}
+
+body section .contacto .centrado ul {
+  text-align: center;
+  float: right;
+  width: 40%;
+  font-size: 2em;
+  text-indent: 1em;
+  margin-top: 100px;
+}
+
+body section .contacto .centrado ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body section .contacto .centrado ul li a {
+  color: #000;
+}
